@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #59A0D2;
+  color: #fff;
+  font-family: 'Helvetica', sans-serif;
+  padding: 2vw;
+  font-size: 10.7px;
+}
+form.profile {
+  margin: 0;
+}
+fieldset {
+  border: none;
+  padding: 2vw;
+  margin: 0;
+  width: 32vw;
+  display: block;
+  float: left;
+}
+input, textarea {
+  margin-bottom: 24.3px;
+}
+select {
+  margin-bottom: 25px;
+}
+label {
+  display: block;
+  margin: 0 0 5px 2px;
+}
+select, textarea, input {
+  display: block;
+  background: none;
+  width: 100%;
+  font-size: 13px;
+  padding: 0 0 0 5px;
+}
+textarea:focus, input:focus {
+  border: 2px #2A6A98 solid;
+}
+textarea {
+  height: 119px;
+  border: 2px #fff solid;
+  resize: none;
+}
+input {
+  border: 2px #fff solid;
+  height: 30px;
+}
+::-webkit-input-placeholder {
+  color: #2A6A98;
+  font-style: italic;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #2A6A98;
+  font-style: italic;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #2A6A98;
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  color: #2A6A98;
+  font-style: italic;
+}
+@media (max-width:820px) and (min-width:600px){
+  body {
+    padding: 0;
+  }
+  fieldset {
+    width: 40vw;
+    margin: 4vw;
+  }
+}
+@media (max-width:600px){
+  body {
+    padding: 0;
+  }
+  fieldset {
+    width: 80vw;
+    margin: 10vw 10vw 0 10vw;
+  }
+}
